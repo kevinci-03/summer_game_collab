@@ -24,7 +24,7 @@ import com.jme3.system.AppSettings;
         @Override
         public void simpleInitApp() {
 
-            Box b = new Box(1, 1, 1);
+            Box b = new Box(10, 10, 10);
             Geometry geom = new Geometry("Box", b);
 
             Material mat = new Material(assetManager, "Common/MatDefs/Misc/Unshaded.j3md");
